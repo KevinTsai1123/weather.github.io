@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My weather API program</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="background"><img src="./world_map.png" alt=""></div>
+    <div class="container">
+        <div class="search">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="輸入地區">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not_found">
+            <p>找不到</p>
+        </div>
+
+        <div class="weather-show1">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+        <div class="weather-show2">
+            <div class="min_temperature">
+                <i class="fa-solid fa-temperature-arrow-down"></i>
+                <div class="text">
+                    <span>mt</span>
+                    <p>最小溫度</p>
+                </div>
+            </div>
+            <div class="max_temperature">
+                <i class="fa-solid fa-temperature-arrow-up"></i>
+                <div class="text">
+                    <span>mt</span>
+                    <p>最大溫度</p>
+                </div>
+            </div>
+        </div>
+        <div class="weather-show3">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>濕度</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>風速</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
